@@ -1,14 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 #tv{
     margin-top: 10px;
+
 }
 
 iframe{
     border-radius: 20px;
     margin: auto;
+    width: 800px;
+    height: 500px;
 }
 #channel{
     font-size: 25px;
@@ -19,4 +23,16 @@ button{
     border-radius: 10px;
     width: 50px;
     height: 50px;
+    color: black;
+}
+a{
+    color: black;
+}
+#active{
+    background: green;
+    color: white;
+}
+button:hover{
+    color: black;
+    background: rgb(101, 178, 214);
 }
