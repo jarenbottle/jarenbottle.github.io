@@ -17,13 +17,17 @@ iframe{
 #channel{
     font-size: 25px;
 }
-button{
+button,
+#youtube{
     font-size: 25px;
     padding: 10px;
     border-radius: 10px;
     width: 50px;
     height: 50px;
     color: black;
+}
+#youtube{
+    width: 150px;
 }
 a{
     color: black;
